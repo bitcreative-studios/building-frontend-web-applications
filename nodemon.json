@@ -1,0 +1,9 @@
+{
+  "restartable": "rs",
+  "ignore": [".git", "node_modules/**/node_modules", "dist"],
+  "runOnChangeOnly": false,
+  "watch": ["webpack.config.js", "package.json", "tailwind.config.js"],
+  "env": {
+    "NODE_ENV": "development"
+  }
+}
